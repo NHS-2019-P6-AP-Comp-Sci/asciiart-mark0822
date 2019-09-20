@@ -17,11 +17,43 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	
+	public static void upper() {
+		System.out.println("     ||");
+	}
+	
+	public static void uppermid() {
+		System.out.println("  || || ||" );
+	}
+	public static void lowermid() { 
+		System.out.println("    |__|");
+	}
+	
+	public static void lower() {
+		System.out.println(" |\"\"\"||\"\"\"| ");
+	}
+	
+	public static void main(String [] args) {
+		System.out.println("    _/\\_");
+		upper();
+		System.out.println("   ((||)) ");
+		upper();
+		System.out.println("   __||__");
+		System.out.println("  /  ||  \\ ");
+		uppermid();
+		uppermid();
+		System.out.println("  \\__||__/ ");
+		lowermid();
+		lowermid();
+		lowermid();
+		lowermid();
+		System.out.println(" ////||\\\\\\\\ ");
+		lower();
+		lower();
+		System.out.println(" \\\\\\\\||//// ");
+		System.out.println("  / /  \\ \\ ");
+		System.out.println(" / /    \\ \\ ");
+		System.out.println("/ /      \\ \\ ");
+	
 	}
 }
